@@ -8,7 +8,16 @@
 
 #main-header a {
   color: white;
-}  
+}
+
+.alert{
+  text-align: center;
+  padding:10px;
+  background:#79c879;
+  color:#fff;
+  margin-bottom:10px;
+  display:none;
+}   
 
 #main-header .port-item {
   width: 30%; }
