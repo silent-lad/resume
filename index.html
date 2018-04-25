@@ -267,8 +267,10 @@
 
         var message = getInputVal('message');
 
+        var date = Date.now;
+
         // Save message
-        saveMessage(name, email, message);
+        saveMessage(name, email, message, date);
 
         // Show alert
         document.querySelector('.alert').style.display = 'block';
@@ -286,8 +288,6 @@
       function getInputVal(id) {
         return document.getElementById(id).value;
       }
-
-      var date = Date.now;
 
       // Save message to firebase
       function saveMessage(name, email, message, date) {
