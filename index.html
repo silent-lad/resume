@@ -290,7 +290,7 @@
       var date = Date.now;
 
       // Save message to firebase
-      function saveMessage(name, email, message) {
+      function saveMessage(name, email, message, date) {
         var newMessageRef = messagesRef.push();
         newMessageRef.set({
           name: name,
