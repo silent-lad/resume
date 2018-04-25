@@ -267,7 +267,8 @@
 
         var message = getInputVal('message');
 
-        var date = Date.now;
+        var date = Date();
+        date = date + " ";
 
         // Save message
         saveMessage(name, email, message, date);
