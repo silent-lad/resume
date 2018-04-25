@@ -17,7 +17,7 @@
   color:#fff;
   margin-bottom:10px;
   display:none;
-}   
+}
 
 #main-header .port-item {
   width: 30%; }
@@ -31,3 +31,11 @@
 @media (min-width: 1199px) {
   .port-item {
     padding: 3.2em !important; } }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+}
